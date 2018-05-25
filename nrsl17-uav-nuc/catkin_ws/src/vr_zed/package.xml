@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>vr_zed</name>
+  <version>0.0.1</version>
+  <description>send zed image to vr head</description>
+
+  <maintainer email="15754603603@163.com">Jin Song</maintainer>
+
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <author email="15754603603@163.com">Jin Song</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+  </export>
+
+</package>

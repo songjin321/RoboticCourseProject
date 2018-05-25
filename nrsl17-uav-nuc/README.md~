@@ -1,0 +1,11 @@
+# srcipt文件夹包含执行各个任务的脚本
+# catkin_mavros 包括编译好的mavros包
+# catkin_ws包含所有的源代码
+## am_controller 机械臂控制部分
+## fly_camera_controller 控制飞机和相机的运动
+## gs_ros_convert 与地面站通信，将地面传来的各种信号转为相应的topic
+## UAV_body_convert 
+## vrpn 接受动捕的信号
+## vr_zed 将zed相机捕捉到的图像传送到vr头显当中，可以当做一个单独的程序使用，与ros并无太大关系192
+## uav-nuc ip address:192.168.1.211 port:4097
+## 地面站  ip address：192.168.1.10 port：4098

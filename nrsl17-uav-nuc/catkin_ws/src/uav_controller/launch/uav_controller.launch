@@ -1,0 +1,12 @@
+<launch>
+    <!-- <param name="mavros/safety_area/p1/x" value="2.247" type="double" />
+    <param name="mavros/safety_area/p1/y" value="0.7" type="double" />
+    <param name="mavros/safety_area/p1/z" value="0.15" type="double" />
+    <param name="mavros/safety_area/p2/x" value="-2.033" type="double" />
+    <param name="mavros/safety_area/p2/y" value="-0.2" type="double" />
+    <param name="mavros/safety_area/p2/z" value="1" type="double" /> -->
+    <node name="uav_controller" pkg="uav_controller" type="uav_controller" output="screen"/>
+    <!--node name="vr_zed" pkg="vr_zed" type="vr_zed" output="screen"/>
+    <node name="serial_ros_flx" pkg="am_controller" type="serial_ros_flx" output="screen"/-->
+    <node name="gs_ros_convert" pkg="gs_ros_convert" type="gs_ros_convert" output="screen"/>  
+</launch>
